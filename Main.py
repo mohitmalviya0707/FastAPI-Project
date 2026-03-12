@@ -6,9 +6,7 @@ import json
 
 app = FastAPI()
 
-class Patient(BaseModel):
 
-    id: Annotated[str, Field(..., description='ID of the patient', examples=['P001'])]
 
 
 
