@@ -23,6 +23,5 @@ if st.button("Predict Premium Category"):
             prediction = result["response"]
             st.success(f"Predicted Insurance Premium Category: **{prediction['predicted_category']}**")
             st.write("🔍 Confidence:", prediction["confidence"])
-            st.write("📊 Class Probabilities:")
-            st.json(prediction["class_probabilities"])
+            st.write("📊 Class Probabil
 
