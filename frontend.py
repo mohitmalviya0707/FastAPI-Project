@@ -5,16 +5,6 @@ import requests
 )
 
 if st.button("Predict Premium Category"):
-    input_data = {
-        "age": age,
-        "weight": weight,
-        "height": height,
-        "income_lpa": income_lpa,
-        "smoker": smoker,
-        "city": city,
-        "occupation": occupation
-    }
-
-    try:
+    
 
 
