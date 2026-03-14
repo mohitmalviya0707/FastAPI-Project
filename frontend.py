@@ -20,8 +20,5 @@ if st.button("Predict Premium Category"):
         result = response.json()
 
         if response.status_code == 200 and "response" in result:
-            prediction = result["response"]
-            st.success(f"Predicted Insurance Premium Category: **{prediction['predicted_category']}**")
-            st.write("🔍 Confidence:", prediction["confidence"])
-            st.write("📊 Class Probabil
+            prediction
 
