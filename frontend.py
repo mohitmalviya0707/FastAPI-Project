@@ -16,7 +16,7 @@ city = st.text_input("City", value="Mumbai")
 occupation = st.selectbox(
     "Occupation",
     ['retired', 'freelancer', 'student', 'government_job', 'business_owner', 'unemployed', 'private_job']
-)
+) 
 
 if st.button("Predict Premium Category"):
     input_data = {
