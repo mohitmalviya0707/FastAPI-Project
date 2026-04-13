@@ -4,7 +4,7 @@ import requests
 API_URL = "http://34.226.152.222:8000/predict"   
 
 st.title("Insurance Premium Category Predictor")
-st.markdown("Enter your details below:"). 
+st.markdown("Enter your details below:").
 
 # Input fields
 age = st.number_input("Age", min_value=1, max_value=119, value=30)
