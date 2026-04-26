@@ -1,4 +1,4 @@
-import streamlit as st  
+import streamlit as st   
 import requests                      
 
 API_URL = "http://34.226.152.222:8000/predict"   
